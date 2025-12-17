@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+        <div class="social-links">
+
+        <a href="https://scholar.google.com/citations?user=6pasLy4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+          <img src="{{ "/assets/icons/googlescholar.svg" | relative_url }}" alt="">
+        </a>
+
+        <a href="https://dblp.org/pid/398/4934.html" target="_blank" rel="noopener noreferrer" aria-label="DBLP">
+          <img src="{{ "/assets/icons/dblp.svg" | relative_url }}" alt="">
+        </a>
+
+        <a href="https://orcid.org/0009-0008-4370-002X" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+          <img src="{{ "/assets/icons/orcid.svg" | relative_url }}" alt="">
+        </a>
+
+        <a href="https://github.com/mjkpolo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <img src="{{ "/assets/icons/github.svg" | relative_url }}" alt="">
+        </a>
+
+        <a href="https://www.linkedin.com/in/marco-kurzynski-673766263/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <img src="{{ "/assets/icons/linkedin.svg" | relative_url }}" alt="">
+        </a>
+
+        <a href="mailto:marco.kurzynski@ucf.edu" aria-label="Email">
+          <img src="{{ "/assets/icons/email.svg" | relative_url }}" alt="">
+        </a>
+      </div>
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
