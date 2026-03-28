@@ -4,3 +4,10 @@ I am a PhD student at the University of Central Florida working under Dr. Di Wu 
   
 In my free time I enjoy recreational programming, as well as swimming and weightlifting.
 Feel free to check out my links and contact me if you'd like to chat!
+
+## Selected Publications
+
+**Lit Silicon: A Case Where Thermal Imbalance Couples Concurrent Execution in Multiple GPUs**  
+Marco Kurzynski, Shaizeen Aga, Di Wu  
+*ISCA 2026*  
+[paper](https://arxiv.org/abs/2511.09861) · [code](https://github.com/UnaryLab/Primus) · TODO: slides
