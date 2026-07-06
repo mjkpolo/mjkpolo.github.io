@@ -10,4 +10,4 @@ Feel free to check out my links and contact me if you'd like to chat!
 **Lit Silicon: A Case Where Thermal Imbalance Couples Concurrent Execution in Multiple GPUs**  
 Marco Kurzynski, Shaizeen Aga, Di Wu  
 *ISCA 2026*  
-[paper](https://arxiv.org/abs/2511.09861) · [code](https://github.com/UnaryLab/lit_silicon_tuning_amd) · TODO: slides
+[paper](/assets/papers/lit_silicon_isca26.pdf) · [code](https://github.com/UnaryLab/lit_silicon_tuning_amd) · [slides](/assets/slides/LitSilicon_ISCA_talk_final.pptx)
